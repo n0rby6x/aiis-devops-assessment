@@ -1,0 +1,6 @@
+# Copy to terraform.tfvars and adjust, or pass via -var / -var-file in CI.
+namespace         = "myapp-dev"
+environment       = "dev"
+image_repository  = "myapp"
+image_tag         = "latest"
+aws_region        = "eu-central-1"
